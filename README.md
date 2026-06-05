@@ -16,15 +16,6 @@ The workflow focuses on processing experimental and simulation datasets, validat
 - Automated processing of MATLAB, CSV and finite-element output datasets
 - Reproducible Python workflow for material modelling and validation
 
-### Research Relevance
-
-- High-temperature structural integrity
-- Austenitic stainless steels
-- Creep and viscoplastic deformation
-- Constitutive material modelling
-- Experimental–simulation correlation
-- Finite-element validation
-- Materials informatics and scientific computing
 
 ## Research motivation
 
