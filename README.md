@@ -58,12 +58,6 @@ For GitHub practicality, this repository includes the compact `.mat` files neede
    - Garofalo hyperbolic-sine creep law.
    - Simple stress-relaxation integration under fixed total strain.
 
-5. **PhD-level extension path**
-   - Abaqus CREEP/UMAT implementation.
-   - Creep-fatigue dwell modelling.
-   - Microstructure descriptors such as grain size, carbide precipitation, and EBSD features.
-   - Extension to nickel-base superalloys.
-
 ## Key processed outputs
 
 After running the real-data scripts, the repository creates:
