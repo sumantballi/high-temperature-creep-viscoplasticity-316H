@@ -1,7 +1,0 @@
-time_h,stress_mpa,temperature_c,total_strain_percent,source_note
-0,360,550,0.25,synthetic fixture for test only
-1,332,550,0.25,synthetic fixture for test only
-10,295,550,0.25,synthetic fixture for test only
-50,255,550,0.25,synthetic fixture for test only
-200,214,550,0.25,synthetic fixture for test only
-800,176,550,0.25,synthetic fixture for test only
