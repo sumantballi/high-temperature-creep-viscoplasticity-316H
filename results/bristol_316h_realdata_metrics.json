@@ -1,0 +1,8 @@
+{
+  "dataset": "Bristol 316H neutron diffraction and interpolated FEA at 550 C",
+  "n_measurements": 72,
+  "temperature_C": 550.0,
+  "mae_sVM_MPa": 24.091582033649686,
+  "rmse_sVM_MPa": 33.115206845976815,
+  "r2_sVM": -0.7165430665518622
+}

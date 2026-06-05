@@ -1,0 +1,10 @@
+{
+  "fitted_model": "sigma(t) = sigma_inf + (sigma0 - sigma_inf) exp(-t/tau)",
+  "fit_target": "mean interpolated FEA von Mises stress at neutron measurement locations",
+  "sigma_inf_MPa": 80.04954592869704,
+  "sigma0_MPa": 93.91144568522894,
+  "tau_h": 381.83905932319027,
+  "mae_MPa": 0.8533219865629368,
+  "rmse_MPa": 1.1135740798252165,
+  "r2": 0.9400710376321189
+}
