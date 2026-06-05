@@ -1,8 +1,30 @@
 # High-Temperature Creep and Stress-Relaxation Modelling of 316H Stainless Steel
 
-A PhD-oriented computational materials project for modelling **high-temperature creep / stress relaxation in Type 316H austenitic stainless steel** using real open experimental and finite-element data.
+## Project Summary
 
-The project is designed to support applications in **high-temperature structural integrity, inelastic deformation, constitutive modelling, finite-element validation, and stainless-steel material modelling**.
+This project develops a computational framework for high-temperature creep and stress-relaxation modelling of Type 316H austenitic stainless steel. Real neutron-diffraction measurements and finite-element simulation results are combined to study stress redistribution, time-dependent deformation, and constitutive behaviour at elevated temperature.
+
+The workflow focuses on processing experimental and simulation datasets, validating finite-element predictions against measured stress states, and calibrating simplified stress-relaxation models for structural-integrity applications.
+
+### Key Contributions
+
+- Real-data analysis using neutron-diffraction measurements from 316H stainless steel
+- Finite-element validation using interpolated stress tensors at measurement locations
+- High-temperature stress-relaxation and creep behaviour assessment
+- Constitutive modelling using Norton, Norton–Bailey and Garofalo-type creep laws
+- Calibration of a reduced-order stress-relaxation model from experimental/FEA data
+- Automated processing of MATLAB, CSV and finite-element output datasets
+- Reproducible Python workflow for material modelling and validation
+
+### Research Relevance
+
+- High-temperature structural integrity
+- Austenitic stainless steels
+- Creep and viscoplastic deformation
+- Constitutive material modelling
+- Experimental–simulation correlation
+- Finite-element validation
+- Materials informatics and scientific computing
 
 ## Research motivation
 
@@ -97,19 +119,7 @@ The negative R² is not hidden. It is discussed as a useful scientific result: t
 }
 ```
 
-## Quick start
 
-```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-
-python src/ingest_bristol_mat.py
-python src/analyze_bristol_realdata.py
-python src/fit_relaxation_law_realdata.py
-
-pytest
-```
 
 ## Repository structure
 
